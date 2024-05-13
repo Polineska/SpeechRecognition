@@ -17,7 +17,7 @@ import speech_recognition as sr
 
 #DATASET_ID = "bond005/sberdevices_golos_10h_crowd"
 DATASET_ID = "bond005/sberdevices_golos_10h_crowd_noised_2db"
-SAMPLES = 100
+SAMPLES = 7000
 
 test_dataset = load_dataset(DATASET_ID, split=f"test[:{SAMPLES}]")
 
